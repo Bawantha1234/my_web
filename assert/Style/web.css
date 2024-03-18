@@ -1,0 +1,23 @@
+*{
+    text-decoration: none;
+}
+.navigationbar{
+    text-decoration: crimson;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navigationdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style:none;
+    display: inline-block;
+}
+li a{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
