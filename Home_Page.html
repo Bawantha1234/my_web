@@ -314,9 +314,11 @@
         }
         .footer{
             top:5700px;
-            left:40px;
+            left:0;
             position: absolute;
-
+            color:white;
+            display: flex;
+   
             
         }
         .image5>img{
@@ -447,7 +449,7 @@
             color: white;
         }
         .container>h3{
-            left:1300px;
+            left:1000px;
             top:100px;
             position:absolute ;
             font-size: x-large;
@@ -456,13 +458,65 @@
 
         }
         .container>iframe{
-            width:200px;
+            width:400px;
             height: 200px;
             border-radius: 20px;
-            left:1300px;
+            left:1000px;
             top:150px;
             position:absolute ;
         }
+        .followMe{
+            width:400px;
+            top:400px;
+            left:1100px;
+            position:absolute;
+            
+        }
+        .footer{
+            background-color: #000;
+            width:1920px;
+            height:300px ;
+            display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer>h4 {
+    left:300px;
+    margin-right: 300px;
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer>p{
+    top:160px;
+    left:580px;
+    position:absolute;
+}
+ #followUs{
+    top:160px;
+    left:1270px;
+    position: absolute;
+ } 
+ #copyright{
+    top:250px;
+    left:500px;
+    position: absolute;
+
+ }      
+     .footer>input{
+        top:50px;
+        left:-450px;
+        position:relative;
+        background-color: grey;
+     }
+     .folloWIcon{
+        right:300px;
+        position: absolute;
+     }   
        
        
     </style>
@@ -705,11 +759,13 @@
 
 <button>SEND MESSAGE</button>
 </div>
+<div class="followMe">
 <p>Follow me here</p>
 <a href="https://web.facebook.com/bawanthbandara/" class="bx bxl-facebook"></a>
 <a href="https://www.instagram.com/bawanthabandara/" class="bx bxl-instagram"></a>
 <a href="https://twitter.com/BawanthaB1" class="bx bxl-twitter"></a>
 <a href="https://www.linkedin.com/in/bawantha-bandara-106982276/" class="bx bxl-linkedin-square"></a>
+</div>
 
 <div class="container">
     <h3>Location</h3>
@@ -719,20 +775,21 @@
 <div class="footer">
 <!--Footer page-->
 <h4>About Us</h4>
-<p></p>
+
 
 <h4>Newsletter</h4>
-<p>Stay update with our latest</p>
+<p >Stay update with our latest</p>
 <input type="text"placeholder="Email">
 
 <h4>Follow US</h4>
-<p>Let's us be social</p>
+<p id="followUs">Let's us be social</p>
+<div class="followIcon">
 <a href="https://web.facebook.com/bawanthbandara/" class="bx bxl-facebook"></a>
 <a href="https://www.instagram.com/bawanthabandara/" class="bx bxl-instagram"></a>
 <a href="https://twitter.com/BawanthaB1" class="bx bxl-twitter"></a>
 <a href="https://www.linkedin.com/in/bawantha-bandara-106982276/" class="bx bxl-linkedin-square"></a>
-
-<p>© Copyright ©2024 All rights reserved | This is made with by Bawantha Bandara</p>
+</div>
+<p id="copyright">© Copyright ©2024 All rights reserved | This is made with by Bawantha Bandara</p>
 </div>
 
 
