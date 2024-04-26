@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "sans-serif";
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 body{
     background: white;
@@ -12,11 +12,11 @@ body{
     width: 100vw;
     height: 100vh;
 }
-
 html{
     overflow-x: hidden;
 }
 
+/*navigation bar*/
 .navigationdiv{
     display: flex;
     justify-content:space-between;
@@ -25,13 +25,10 @@ html{
     margin:auto;
     position:absolute;
 }
-
 li{
     list-style:none;
     display: inline-block;
-
 }
-
 li a{
     color:black;
     font-size: 18px;
@@ -39,7 +36,6 @@ li a{
     margin-right: 25px;
     text-decoration: none;
 }
-
 li a:hover{
     color: #2F8FFF;
 }
@@ -47,7 +43,7 @@ li a:hover{
 .introduction>h4{
     left:450px;
     top:250px;
-    position:absolute;
+    position: absolute;
     font-size:xx-large ;
     line-height:1%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -57,7 +53,7 @@ li a:hover{
     top:300px;
     position: absolute;
     font-family: "Londrina Shadow", sans-serif;
-    font-size:100px;
+    font-size:90px;
     font-weight: 400;
     font-style: normal;
     line-height: 0.2;
@@ -68,7 +64,7 @@ li a:hover{
     top:400px;
     position: absolute;
     font-family: "Londrina Shadow", sans-serif;
-    font-size:100px;
+    font-size:90px;
     font-weight: 400;
     font-style: normal;
     color:#2F8FFF ;
@@ -94,6 +90,102 @@ li a:hover{
     color:blue ;
     text-decoration: none;
 }
+.socialIcon{
+    left: 450px;
+    top: 530px;
+    position: absolute;
+}
+
+.aboutME{
+    left:50px;
+    top:700px;
+    position:absolute;
+    color: black;
+
+}
+.aboutME>p{
+    font-size:large;
+    color: gray;
+    font-weight: bold;
+}
+.aboutME>h3{
+    font-size:large;
+    color:#000;
+    font-weight: bold;
+    line-height: 0.1%;
+}
+.me{
+    position:relative;
+}
+.me>img{
+    width:245px;
+    height: 250px;
+    left:900px;
+    top:-250px;
+    position:absolute;
+    border-radius: 20px;
+}
+.name{
+    left:915px;
+    top:10px;
+    position:relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:large;
+}
+.address{
+    left:940px;
+    top:20px;
+    position:relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:large;
+}
+.mobile{
+    left:950px;
+    top:20px;
+    position:relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:large;
+}
+.downloadcv{
+    left:965px;
+    top:25px;
+    position:relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:large;
+}
+
+.skillImg>img{
+    width:72px;
+    height: 72px;
+    position:relative;
+    display:inline-flex;
+    margin-left: 30px;
+    margin-right: 10px;
+    justify-content: space-between;
+    left:-10px;
+    top:10px;
+}
+#toolsExpertness{
+    top:400px;
+    left:0px;
+    position:absolute;
+    font-size:x-large;
+}
+.progressBar{
+    width:500px;
+    top:100px;
+    left:60px;
+    display: inline-flex;
+    justify-content: space-around;
+    position:relative;
+    margin-right: 20px;
+}
+
+
 /*
 .home{
     background-color: brown;
