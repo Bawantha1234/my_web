@@ -75,6 +75,15 @@ li a:hover{
     text-decoration-color:black ;
     line-height: 1%;
 }
+.introduction>p{
+    left:450px;
+    top:460px;
+    position: absolute;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 0.5;
+}
 /*
 .home{
     background-color: brown;
