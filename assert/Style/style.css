@@ -8,12 +8,12 @@ body{
     background: white;
     color: black;
 }
-/*.home{
+.home{
     width: 100vw;
     height: 100vh;
 }
 
-html{
+/*html{
     overflow-x: hidden;
 }
 
