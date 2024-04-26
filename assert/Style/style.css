@@ -13,7 +13,7 @@ body{
     height: 100vh;
 }
 
-/*html{
+html{
     overflow-x: hidden;
 }
 
@@ -43,6 +43,8 @@ li a{
 li a:hover{
     color: #2F8FFF;
 }
+
+
 /*
 .home{
     background-color: brown;
