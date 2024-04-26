@@ -84,6 +84,16 @@ li a:hover{
     font-weight: bold;
     line-height: 0.5;
 }
+.contactButton>button{
+    left:450px;
+    top:480px;
+    position: absolute;
+    border-radius: 20px;
+    width:70px;
+    height: 30px;
+    color:blue ;
+    text-decoration: none;
+}
 /*
 .home{
     background-color: brown;
